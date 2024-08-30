@@ -1,38 +1,30 @@
 Problem
-Find and print the elements that are not repeated in two sorted arrays. Print the result in sorted array
+Write a program to add two integer numbers.
 
 Input Format
-The input consists of four lines:
-The first line contains an integer N, representing the number of elements in array A.
-The second line contains N space-separated integers, denoting the elements of array A.
-The third line contains an integer M, representing the number of elements in array B.
-The fourth line contains M space-separated integers, denoting the elements of array B.
+First Line contain single integer m Second line contain single integer n
 
 Output Format
-Print the elements that are not repeated in either array A or B, separated by a space.
+Print sum of both the integers m and n
 
 Sample Inputs & Outputs
 Sample Input 1
 
 5
-1 2 3 4 5
-6
-2 4 6 8 10 12
+10
 
 Sample Output 1
 
-1 3 5 6 8 10 12
+15
 
 Sample Input 2
 
-4
-2 4 6 8
-5
-4 6 8 10 12
+20
+30
 
 Sample Output 2
 
-2 10 12
+50
 
 Constraints
-1 ≤ N, M ≤ 10^5
+1 <= m,n <= 1000
