@@ -1,39 +1,31 @@
 Problem
-Find the common repeating odd elements in two sorted arrays.
+Given an array of integers with a size of N, write a program to display all the elements contained within the array.
 
 Input Format
-First line contains an integer representing size of the array A
-Second line contains an Integers separated by a space, representing the elements of array A (A[0], A[1], ..., A[n-1]).
-Third line contains an integer representing size of the array B
-Fourth line contains an Integers separated by a space, representing the elements of array B (B[0], B[1], ..., B[m-1]).
+The first line contains an integer N, representing the size of the array. The second line contains N space-separated integers, representing the elements of the array.
 
 Output Format
-Print a single line containing the odd elements that are common to both arrays, separated by a space, in ascending order.
-If no common odd elements are found, output "No common odd elements found."
+Display N integers, representing the elements of the array.
 
 Sample Inputs & Outputs
 Sample Input 1
 
 5
 1 2 3 4 5
-5
-3 4 5 6 7
 
 Sample Output 1
 
-3 5
+1 2 3 4 5
 
 Sample Input 2
 
-4
-2 4 6 8
-4
-1 3 5 7
+3
+10 -20 30
 
 Sample Output 2
 
-No common odd elements found.
+10 -20 30
 
 Constraints
-The length of arrays A and B are at most 10^5.
-The elements of arrays A and B are integers in the range -10^9 to 10^9.
+1 <= N <= 100
+-1000 <= Array elements <= 1000
