@@ -1,31 +1,33 @@
 Problem
-Given an array of integers with a size of N, write a program to display all the elements contained within the array.
+You are given an array of integers and a k value. Your task is to find the index of the last occurrence of the k value in the array. If the k value does not exist in the array, return -1.
 
 Input Format
-The first line contains an integer N, representing the size of the array. The second line contains N space-separated integers, representing the elements of the array.
+The first line contains an integer N, the size of the array.
+The second line contains N space-separated integers, representing the elements of the array.
+The third line contains an integer k, the value to search for.
 
 Output Format
-Display N integers, representing the elements of the array.
+Output the index of the last occurrence of the target value in the array. If the target value is not found, output -1.
 
 Sample Inputs & Outputs
 Sample Input 1
 
-5
-1 2 3 4 5
+8
+2 5 7 2 8 4 2 3
+2
 
 Sample Output 1
 
-1 2 3 4 5
+6
 
 Sample Input 2
 
-3
-10 -20 30
+5
+1 3 2 1 4
+9
 
 Sample Output 2
 
-10 -20 30
+-1
 
 Constraints
-1 <= N <= 100
--1000 <= Array elements <= 1000
